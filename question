@@ -1,0 +1,2 @@
+In the thesis，I see ‘d = (self.item_factors[i,:]-self.item_factors[j,:])*z + self.user_regularization*self.user_factors[u,:]’.
+But in the code, I see 'd = (self.item_factors[i,:]-self.item_factors[j,:])*z - self.user_regularization*self.user_factors[u,:]',why?
